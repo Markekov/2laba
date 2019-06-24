@@ -1,0 +1,333 @@
+*{
+    padding: 0; /*внешние отступы*/
+    margin: 0; /*внутренние отступы*/
+}
+
+body{
+    display: flex; /*контейнер*/
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.site{
+    width: 950px;
+    height: 500px;
+    background: rgba(0,0,0,0.1);
+    /*margin: auto;*/
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.btn{
+    width: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-menu{
+    width: 450px;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /*по вертикали в контейнере*/
+    font-family: Harrington;
+    text-shadow: #1721ff 0 0 9px;
+    font-size: 20px;
+    color: white;
+}
+
+.btn-menu:hover{
+    background-color: lightgrey;
+    border-radius: 6px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: red 0 0 4px;
+    border: 3px solid rgba(0,0,0,0.1);
+
+}
+
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    text-shadow: #250dff 0 0 9px;
+    color: white;
+    font-family: Harrington;
+}
+
+.fon{
+    width: 100%;
+    height: 500px;
+    background: blue;
+    background: url("../images/1.png") no-repeat;
+}
+.fon2{
+    width: 100%;
+    height: 650px;
+    background: blue;
+    background: url("../images/2.PNG") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+.fon3{
+    width: 100%;
+    height: 150px;
+    background: blue;
+    background: url("../images/67.PNG") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    /* background-size: 100%;
+     background-position: 0 -200px; */
+}
+
+.fon4{
+    width: 100%;
+    height: 650px;
+    background: blue;
+    background: url("../images/8.PNG") no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    /* background-size: 100%;
+     background-position: 0 -200px; */
+}
+
+.ask-btn{
+    padding: 4px 50px;
+    background: #b3b4ff;
+    border: 2px solid #008B8B;
+    text-shadow: black 0 0 5px;
+    cursor: pointer;
+    border-radius: 11px;
+    color: white;
+    -moz-user-select: none;
+    font-size: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ask-btn:active{
+    background: #1195ff;
+}
+
+
+
+
+.place2{
+    position: center;
+    bottom: -30px;
+    margin: 30px 30px 30px 30px;
+    width: 290px;
+    height: 270px;
+    border-radius: 20px;
+    border: 3px solid snow;
+    background: url("../images/31.PNG") no-repeat;
+    background-size: 300px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.place3{
+    position: center;
+    bottom: -30px;
+
+    width: 290px;
+    height: 270px;
+    border-radius: 20px;
+    border: 3px solid snow;
+    background: url("../images/4.PNG") no-repeat;
+    background-size: 290px;
+    display: inherit;
+}
+
+.place4{
+    position: center;
+    bottom: -30px;
+    margin: 30px 30px 30px 30px;
+    width: 290px;
+    height: 270px;
+    border-radius: 20px;
+    border: 3px solid snow;
+    background: url("../images/5.PNG") no-repeat;
+    background-size: 290px;
+    display: inherit;
+}
+
+.con2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.place21{
+    position: center;
+    bottom: -30px;
+    margin: 30px 30px 30px 30px;
+    width: 290px;
+    height: 270px;
+    border-radius: 20px;
+    border: 3px solid snow;
+    background: url("../images/71.PNG") no-repeat;
+    background-size: 270px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.place31{
+    position: center;
+    bottom: -30px;
+    width: 290px;
+    height: 270px;
+    border-radius: 20px;
+    border: 3px solid snow;
+    background: url("../images/72.PNG") no-repeat;
+    background-size: 270px;
+    display: inherit;
+}
+
+.place41{
+    position: center;
+    bottom: -30px;
+    margin: 30px 30px 30px 30px;
+    width: 290px;
+    height: 270px;
+    border-radius: 20px;
+    border: 3px solid snow;
+    background: url("../images/73.PNG") no-repeat;
+    background-size: 270px;
+    display: inherit;
+}
+
+
+.info{
+    width: 100%;
+    height: 130px;
+    background: whitesmoke;
+    border-top: 2px solid white;
+}
+
+.logotwit{
+    display: block;
+    width: 75px;
+    height: 39px;
+    background-image: url("../images/twitter.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 35px 10px 10px 40px;
+}
+
+
+
+
+
+
+.contentinfo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.ph1{
+    width: 46px;
+    height: 36px;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 10px 10px 220px;
+    background-image: url("../images/facebook icon.png");
+}
+
+.ph2{
+    width: 46px;
+    height: 36px;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 10px 10px 10px;
+    background-image: url("../images/digg icon.png");
+}
+
+.ph3{
+    width: 46px;
+    height: 36px;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 10px 10px 10px;
+    background-image: url("../images/RSS icon.png");
+}
+
+.ph4{
+    width: 46px;
+    height: 36px;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 10px 10px 10px;
+    background-image: url("../images/Shape 3 copy.png");
+}
+
+
+
+
+
+
+
+
+.batteru{
+    width: 40px;
+    height: 41px;
+    background-image: url("../images/film can.png");
+}
+
+.Contus{
+    width: 144px;
+    height: 18px;
+    margin: 10px 10px 10px 10px;
+    background-image: url("../images/CONTACT US.png");
+}
+
+.bl3{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
